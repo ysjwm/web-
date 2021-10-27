@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>视频标签</title>
+</head>
+
+<body>
+<h1>可爱的大白兔</h1>
+<video src="mov_bbb.mp4" controls autoplay height="280" width="480">
+	<source src="mov_bbb.ogv" type="video/ogg">
+    <source src="mov_bbb.webm" type="video/webm">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <p>您的浏览器不支持video元素</p>
+</video>
+</body>
+</html>
