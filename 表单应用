@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单应用</title>
+</head>
+
+<body>
+<form>
+<h1>用户注册</h><br>
+	<div><label>用户名:
+    <input type="text" name="username" maxlength="6" placeholder="请输入用户名"></label></div>
+    <div><label>密&nbsp;&nbsp;&nbsp;&nbsp;码:
+    <input type="password" name="psd" placeholder="设置密码"></label></div>
+	<div>性别：
+    	
+		<input type="radio" value="boy" name="sex" id="boy" checked/>
+		<label for="boy">男</label>
+		<input type="radio" value="gril" name="sex" id="girl"/>
+		<label for="girl">女</label>
+	</div>
+	<div><label>爱&nbsp;&nbsp;&nbsp;&nbsp;好:
+    <input type="checkbox" name="hobby" id="computer"/>
+    <label for="computer">计算机</label>
+    
+        <input type="checkbox" name="hobby" id="traveler"/>
+    <label for="traveler">驴友</label>
+
+    <input type="checkbox" name="hobby" id="text"/>
+    <label for="text">文学</label></div>
+	<div><label>上传照片:
+    <input type="file" name="uphoto" id="uphoto" value="选择文件"accept="image/*"></div>
+ 
+	<div><input type="submit" name="st" value="立即注册">
+    </label>
+	<input type="reset" name="rs" value="重置"></div>
+</form>
+</body>
+</html>
