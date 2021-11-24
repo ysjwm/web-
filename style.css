@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+h
+	{
+	text-align:center;
+	font-size:3;	
+		}	
+
+p
+	{
+	line-height:30px;
+	text-indent:2em;
+	}
+
+#tr1
+	{
+	background-color: #fbf6e3;
+	}
+#tr2
+{
+	background-color: #eee6cb;
+	}
+#tr3
+{
+	background-color: #eee6cb;
+	}	
